@@ -58,7 +58,7 @@ section {
 .container {
   width: 100vw;
   height: 50vh;
-  background-color: #dc89145d;
+  background-color: #63c3ff6d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@ section {
 
 .texto {
   font-size: 3em;
-  color: rgb(55, 146, 232);
+  color:black;
 }
 
 .img-banner {
@@ -162,7 +162,7 @@ section {
 .circle {
   height: 100px;
   width: 100px;
-  background-color: #1d7787;
+  background-color: white;
   border-radius: 50%;
   border: 2px solid rgb(3, 156, 202);
   box-shadow: 2px 2px 5px rgb(199, 7, 7);
@@ -209,9 +209,9 @@ section {
 }
 
 .item1 { grid-area: header; background-color: #21c5ee; }
-.item2 { grid-area: nav; background-image: url('image0.jpg'); background-size: cover; }
-.item3 { grid-area: main; background-color: #2188f7; }
-.item4 { grid-area: aside; background-image: url('image1.jpg'); background-size: cover; }
+.item2 { grid-area: nav; background-image: url('learn.jpeg'); background-size: 100%; }
+.item3 { grid-area: main; background-color: #2c3e505d; }
+.item4 { grid-area: aside; background-image: url('learn1.jpeg'); background-size: 100%; }
 .item5 { grid-area: footer; background-color: rgb(215, 155, 23);  }
 
 .item1 h1, .item3 h1 {
